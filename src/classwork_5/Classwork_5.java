@@ -24,8 +24,18 @@ public static void main(String[] args) {
 	}
 	System.out.println(sum);
     // 5
-	 for(byte i = 1 ;i <= 10;i++) {
+	for(byte i = 1 ;i <= 10;i++) {
 		 System.out.println(7 + " * " + i +" = " + i * 7);
-	 }
+	}
+	// 6
+	for(byte i = 1 ;i <= 30;i++) {
+	if(i % 3 == 0 && i % 5 == 0) {
+		System.out.println(i + "-КОРЕЙКА! (делится на всё)");
+	}else if(i % 5 == 0 && i % 3 != 0) {
+		System.out.println(i + "-делится на 5");
+	}else if(i % 3 == 0 && i % 5 != 0) {
+		System.out.println(i + "-делится на 3");
+	}
+	}
 }  
 }
