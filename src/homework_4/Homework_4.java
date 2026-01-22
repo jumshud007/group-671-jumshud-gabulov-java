@@ -67,7 +67,7 @@ public static void main(String[] args) {
 //
 //	9. **Массивы и Клонирование:**
 	     int[] array8 =array5.clone();
-	     System.out.println(array8);
+	     System.out.println(Arrays.toString(array8));
 //	   - Напишите программу, использующую метод `clone()`, для создания копии массива целых чисел.
 //	   - Какие альтернативные способы клонирования массива вы можете предложить?(copyOf copyofRange)
 }

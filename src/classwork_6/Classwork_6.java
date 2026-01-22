@@ -1,4 +1,4 @@
-package Classwork_6;
+package classwork_6;
 
 import java.util.Arrays;
 import java.util.Iterator;
