@@ -13,6 +13,10 @@ public class Homework_6 {
 		
 		student2.average(1,2,3,4);
 		student2.printMax(1,2,3,4,5,6,8,9,1,19876,23,98);
+		// 3
+		student2.printIn1("Hi");
+		student2.printIn2(23);
+		student2.printIn3(45,"Hi");
 	}
 	
 

@@ -32,5 +32,14 @@ public class student {
 		Arrays.sort(values);
 		System.out.println(values[values.length - 1]);
 	};
-    
+	// 3
+	public void printIn1(String text) {
+		System.out.println("String value :" + text);
+	}
+	public void printIn2(int number) {
+		System.out.println("Int value :" + number);
+	}
+    public void printIn3(double value, final String notunit) {
+    	System.out.println("Double value :" + value +"Final string value :" + notunit);
+    }
 }
