@@ -12,11 +12,9 @@ public class Character implements IPrintstats{
      };
      public void heal(int value) {
     	 health += value;
-    	 System.out.println("Your health : " + health );
      };
      public void train(int value) {
     	 strength += value;
-    	 System.out.println("Your strength : " + strength);
      }
 	 @Override
 	 public void IPrintStats() {
