@@ -22,5 +22,13 @@ public static void main(String[] args) {
     character1.heal(10);
     character1.train(13);
     character1.IPrintStats();
+    // 6
+    Book book1 = new Book("Harry Potter","J.K.Rouling", 1);
+    Book book2 = new Book("Harry Potter","J.K.Rouling");
+    book1.printInfo();
+    book2.printInfo();
+    // 7
+    Car car1 = new Car();
+    car1.printDetails();
 }
 }
