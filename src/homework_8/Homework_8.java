@@ -176,7 +176,5 @@ public class Homework_8 {
     Bird bird52 = new Bird();
     bird52.fly();
     
-    
-    
 	}
 }
