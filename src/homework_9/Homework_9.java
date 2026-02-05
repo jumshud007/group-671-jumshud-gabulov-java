@@ -35,6 +35,7 @@ public class Homework_9 {
 	// 5
 	Scopetest scope1 = new Scopetest();
 	scope1.scope();
+	System.out.println(Math.sqrt(1231321232));
 	// Обьяснение переменная локальная поэтому ее невозможно использовать за ее блоком кода
 }
 }
