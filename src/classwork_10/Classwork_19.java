@@ -8,7 +8,7 @@ public class Classwork_19 {
 	System.out.println(123);
 	Scanner s = new Scanner(System.in);
 	int a = s.nextInt();
-	if(a % 2 == 0) {
+	if(a % 2 == 0) { 
 		System.out.println("Чётное");
 	} else {
 		System.out.println("Нечётное");

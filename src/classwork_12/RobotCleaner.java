@@ -3,7 +3,7 @@ package classwork_12;
 public class RobotCleaner {
     String name;
     int battery = 100;
-    boolean isworking = falseF;
+    boolean isworking = false;
     public RobotCleaner(String name) {
     	this.name = name;
     }
