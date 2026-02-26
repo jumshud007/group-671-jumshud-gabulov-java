@@ -2,15 +2,19 @@ package homework_8;
 
 public class DOg {
     String name;
-    Boolean hastail;
-    String colour;
-    public DOg(String name, boolean hastail,String colour) {
+    int age;
+    String breed;
+    public DOg(String name, boolean b,String breed) {
    	 this.name = name;
-   	 this.hastail = hastail;
-   	 this.colour = colour;
+   	 this.age = b;
+   	 this.breed = breed;
     }
     
-    public void bark() {
+    public DOg(String name2, boolean hastail, String colour) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void bark() {
    	 System.out.println("Barking");
     }
     public void run() {

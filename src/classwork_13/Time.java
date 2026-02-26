@@ -13,5 +13,4 @@ public class Time {
 		minutes += min;
 		do{minutes -= 60; hours++;}
 		while(minutes > 59);};
-	public void tostring() {	
 }
