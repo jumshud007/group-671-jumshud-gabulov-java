@@ -37,8 +37,7 @@ public class Runner {
 //	Напишите метод isLuckyTicket(int number), который принимает 6-значное число и возвращает true, если это «счастливый билет» (сумма первых трёх цифр равна сумме последних трёх).
 		Scanner s2 = new Scanner(System.in);
 		int num = s2.nextInt();
-		if (Integer.parseInt((num + "").split("")[0])
-				+ Integer.parseInt((num + "").split("")[1])
+		if (Integer.parseInt((num + "").split("")[0]) + Integer.parseInt((num + "").split("")[1])
 				+ Integer.parseInt((num + "").split("")[2]) == Integer.parseInt((num + "").split("")[3])
 						+ Integer.parseInt((num + "").split("")[4]) + Integer.parseInt((num + "").split("")[2])
 						+ Integer.parseInt((num + "").split("")[5])) {
