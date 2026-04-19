@@ -1,0 +1,17 @@
+package homework_13;
+
+public class Bank {
+	    private static Bank instance;
+	    private int balance = 0;
+	    
+	    private Bank() {} // конструктор закрыт!
+	    
+	    public static Bank getInstance() {
+	    	if(instance == null) {new Bank();}
+	    	return instance;
+	    }
+	    
+	    public void deposit(int amount) { balance += amount; }
+	    public int getBalance() { return balance; }
+	}
+
