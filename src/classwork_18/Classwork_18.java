@@ -41,7 +41,6 @@ public class Classwork_18 {
   	  	}
 		ArrayList eratos = new ArrayList();
 		for(int i = 2;i < 25;i++) {
-			if(i )
 		}
 	}
 }
