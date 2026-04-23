@@ -36,5 +36,20 @@ public class Runner {
 // 3    String name;
 
 // 4    public Runner() { }
+	
+		
+		// 9 
+		Student student1 = new Student("Jum", 12);
+		student1.introduce();
+		
+		// 10
+		// 3 public void study() { }
+
+		// 1 String name;
+
+		// 2 public Student(String name) {
+		//    this.name = name;
+		//}
+
 	}
 }
