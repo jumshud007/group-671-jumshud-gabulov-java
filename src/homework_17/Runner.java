@@ -42,7 +42,7 @@ public class Runner {
 		int sum2 = 0;
 		do {
 			b = number2 % 10;
-			sum+= b;
+			sum2 += b;
 			number2 /= 10;
 		}while(number2 != 0);
 		// 8
