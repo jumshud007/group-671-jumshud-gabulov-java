@@ -79,5 +79,8 @@ public class Runner {
 	        if(i % 2 == 1 ) {System.out.print(" ");}
 	 	    	System.out.println("# # # #");
 	    }
+	    for(int i = 701;i <= 1000;i++) {
+	    	System.out.println(i + ". " + "Фидашкаааа привееееетттт!!!");
+	    }
 	}			
 	}
