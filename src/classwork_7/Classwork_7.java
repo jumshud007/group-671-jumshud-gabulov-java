@@ -14,7 +14,9 @@ public class Classwork_7 {
     }
 //	3. Выведи все чётные числа от 2 до 30.
     for(int i = 1;i < 31;i++) {
-    	if(i % 2 == 1) continue;
+    	if(i % 2 == 1) {
+			continue;
+		}
     	System.out.println(i);
     }
 //	4. Выведи таблицу умножения на 6 (от 6×1 до 6×10) в таком виде:  
@@ -45,7 +47,9 @@ public class Classwork_7 {
 //	8. Посчитай сумму только нечётных чисел от 1 до 30.
     int sum2 = 0;
     for(int z = 1;z < 31;z++) {
-    	if(z % 2 == 0) continue;
+    	if(z % 2 == 0) {
+			continue;
+		}
     	sum2 += i;
     }
     System.out.println(sum2);
@@ -53,7 +57,9 @@ public class Classwork_7 {
 //	   (Подсказка: превращай число в строку и проверяй каждый символ)
     int num = 0;
     for(int z = 1;z < 51;z++) {
-    	if(z % 10 != 7) continue;
+    	if(z % 10 != 7) {
+			continue;
+		}
     	num++;
     }   
     System.out.println(num);
@@ -161,8 +167,9 @@ public class Classwork_7 {
 //
 //	21. Выведи таблицу умножения от 1 до 9 (как настоящая табличка):
    	 for(byte z = 1 ; z <= 9; z++) {
-   		 for(byte k = 0 ; k <= 9; k++)
-		 System.out.println(z + " * " + k +" = " + z * k);
+   		 for(byte k = 1 ; k <= 9; k++) {
+			System.out.println(z + " * " + k +" = " + z * k);
+		 }
 	 }
 //	    
 //	    1 × 1 = 1    1 × 2 = 2    ...
