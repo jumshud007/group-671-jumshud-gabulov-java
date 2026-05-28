@@ -10,5 +10,13 @@ public class Runner {
 	  Dog dog1 = new Dog();
 	  dog1.name = "maks";
 	  dog1.makeSound();
+	  
+	  ElectronicToy toy1 = new ElectronicToy();
+	  toy1.getInfo();
+	  
+	  GameCharacter character1 = new GameCharacter();
+	  character1.attack();
+	  Mage mage1 = new Mage();
+	  mage1.attack();
 	}
 }
